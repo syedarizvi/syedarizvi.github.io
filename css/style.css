@@ -1,0 +1,150 @@
+/*--- Navigation Bar ---*/
+.navTop {
+  border-bottom: 1px;
+  height: 1px;
+  margin-bottom:0;
+  border-radius:0px;
+  background: silver;
+}
+
+.navTop .navbar-brand:hover,
+.navTop .navbar-brand:focus,
+.navTop ul.navbar-nav li a:hover,
+.navTop ul.navbar-nav li a:focus
+{
+  color:white;
+  background:gray;
+  border-radius:6px;
+}
+
+.navTop .navbar-collapse ul.navbar-nav li a {
+  color: black;
+}
+
+.navbar-collapse {
+  background-color: silver;
+}
+
+/*--- About Section ---*/
+
+.about-section{
+  background-image: url("../images/about-section-bkgd.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center; 
+  background-size: cover;
+  height: 650px;
+  padding-top: 70px;
+  color: white;
+}
+
+.about-section h1 {
+  font-family: 'Sansita', sans-serif;
+  font-size: 4vw;
+}
+.about-section h2 {
+  font-family: 'Sansita', sans-serif;
+  font-size: 3vw;
+}
+
+.about-section p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5vw;
+}
+
+.langs img {
+  background-color: white;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border: 3px solid blue;
+  border-radius: 5%;
+}
+
+/*--- Projects Section ---*/
+
+.projects-section {
+  background-image: url("../images/project-section-bkgd.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: cover;
+  width: 100%;
+  padding-top:50px;
+  padding-bottom: 50px;
+}
+
+.projects-section h2,
+.projects-section h4 {
+  font-weight: 900;
+  text-shadow: 2px 2px 0px #000;
+  color: white;
+  font-family: 'Sansita', sans-serif;
+}
+
+.projects-section h2 {
+  font-size: 3.5vw;
+}
+
+.projects-section h4 {
+  font-size: 2.5vw;
+}
+
+.projCell {
+  background-color: silver;
+}
+
+.projCell .caption h3{
+  color: black;
+  font-size: 1.5vw;
+  font-family: 'Roboto', sans-serif;
+}
+
+.projCell .btn {
+  color: white;
+  background-color: black;
+  font-size: 1vw;
+}
+
+/*--- Contact Section---*/
+.contact-section {
+  background-image: url("../images/contact-section-bkgd.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20vh;
+  width:100%;
+  height: 110vh;
+  color: white;
+}
+
+.contact-section h3 {
+  font-family: 'Sansita', sans-serif;
+  font-weight: 900;
+  text-shadow: 2px 2px 0px #000;
+}
+
+.contact-section .btn {
+  color: black;
+  background-color: silver;
+  font-size: 1.5vw;
+  width: 20vw;
+}
+
+/* --- Footer --- */
+
+footer {
+  background:silver;
+  padding-top: 2vh;
+}
+
+footer li a {
+  color:black;
+}
+footer li a:hover{
+  color:black;
+}
+
+footer p {
+  color:black;
+}
